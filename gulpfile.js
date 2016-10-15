@@ -4,7 +4,11 @@ var crisper = require('gulp-crisper');
 
 gulp.task('vulcanize', function() {
   return gulp.src('elements/elements.html')
-    .pipe(vulcanize())
+    .pipe(vulcanize({
+      stripExcludes: false,
+      inlineScripts: true,
+      stripComments: true
+    }))
     .pipe(crisper())
     .pipe(gulp.dest('dist/elements'));
   });
