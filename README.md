@@ -19,7 +19,7 @@ $ gulp --components "paper-button paper-icon-button"
 
 ### Real world example
 
-I had a small app that was only using a few paper elements afaik. But look at the cost:
+I had a small app that was only using a handful of paper elements. But look at the cost:
 ```
 $ bower install PolymerElements/iron-flex-layout PolymerElements/iron-ajax PolymerElements/paper-fab PolymerElements/paper-icon-button PolymerElements/paper-toast PolymerElements/iron-pages PolymerElements/iron-form PolymerElements/paper-input PolymerElements/paper-button PolymerElements/iron-icon PolymerElements/app-layout PolymerElements/paper-item
 $
