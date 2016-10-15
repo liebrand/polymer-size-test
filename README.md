@@ -17,6 +17,20 @@ $ gulp --components "paper-button paper-icon-button"
 [09:27:55] File size: all files 295.58 kB
 ```
 
+### Just polymer
+
+Almost 300kB for two buttons seems heavy. What about polymer on its own?
+
+```
+$ gulp --components "polymer"
+[09:39:37] File size: deps.html 1.16 kB
+[09:39:37] File size: deps.js 210.61 kB
+[09:39:37] File size: all files 211.77 kB
+
+ouch...
+```
+
+
 ### Real world example
 
 I had a small app that was only using a handful of paper elements. But look at the cost:
@@ -29,5 +43,5 @@ $ gulp --components "iron-flex-layout iron-ajax paper-fab paper-icon-button pape
 [09:32:35] File size: deps.js 498.03 kB
 [09:32:35] File size: all files 558.84 kB
 
-OUCH
+More than half a meg?!
 ```
