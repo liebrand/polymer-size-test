@@ -2,7 +2,7 @@
 
 Most people vulcanize the polymer components they use. But since each of those can (and will) have a lot of dependencies, it's hard to know exactly how big your app will get if you add for example a <paper-icon-button> to your page.
 
-This little test script helps work out how big your Polymer dependencies *reall* are.
+This little test script helps work out how big your Polymer dependencies *really* are.
 
 ### Example
 
